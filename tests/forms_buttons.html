@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<body>
+	<header>
+		<h1>Test: Forms and buttons</h1>
+	</header>
+
+	<main>
+		<form>
+			<ul>
+				<li>
+					<label for="uid">User ID</label>
+					<input type="text" id="uid" name="uid" />
+				</li>
+
+				<li>
+					<label for="pwd">Password</label>
+					<input type="password" id="pwd" name="pwd" />
+				</li>
+
+				<button>Log in</button>
+			</ul>
+		</form>
+
+		<form>
+			<fieldset>
+				<legend>Who is your favorite pony?</legend>
+				<ul>
+					<li>
+						<label for="pinkie">Pinkie Pie</label>
+						<input type="radio" id="pinkie" name="pony" value="pinkie" checked />
+					</li>
+
+					<li>
+						<label for="rainbow">Rainbow Dash</label>
+						<input type="radio" id="rainbow" name="pony" value="rainbow" />
+					</li>
+
+					<li>
+						<label for="twilight">Twilight Sparkle</label>
+						<input type="radio" id="twilight" name="pony" value="twilight" />
+					</li>
+				</ul>
+			</fieldset>
+
+			<fieldset>
+				<legend>Hotdog preferences</legend>
+				<ul>
+					<li>
+						<label for="vegan">Vegan</label>
+						<input type="checkbox" id="vegan" name="hotdog" value="vegan" />
+					</li>
+
+					<li>
+						<label for="onions">Onions</label>
+						<input type="checkbox" id="onions" name="hotdog" value="onions" />
+					</li>
+
+					<li>
+						<label for="mustard">Mustard</label>
+						<input type="checkbox" id="mustard" name="hotdog" value="mustard" />
+					</li>
+
+					<li>
+						<label for="ketchup">Ketchup</label>
+						<input type="checkbox" id="ketchup" name="hotdog" value="ketchup" />
+					</li>
+				</ul>
+			</fieldset>
+			<button>Submit</button>
+		</form>
+
+		<form>
+			<h2>Edit your preferences</h2>
+			<ul>
+				<li>
+					<label for="email">Email</label>
+					<input type="email" id="email" name="email" />
+				</li>
+
+				<li>
+					<label for="website">Website</label>
+					<input type="url" id="website" name="website" />
+				</li>
+				<li>
+					<label for="phone">Phone number</label>
+					<input type="tel" id="phone" name="phone" />
+				</li>
+
+				<li>
+					<label for="fave-color">Favorite color</label>
+					<input type="color" id="fave-color" name="fave-color" />
+				</li>
+
+				<button>Update preferences</button>
+			</ul>
+		</form>
+	</main>
+</body>
+
+</html>
